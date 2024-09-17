@@ -10,13 +10,10 @@ This document contains a simple Python code snippet that demonstrates how to:
 ## Code Snippet
 
 ```python
-name = input("What is your Name?\n")  # Prompts the user for their name
+# --\n-- prints to Next line
+name = input("What is your Name?\n") 
 
-# Removes leading and trailing whitespaces from the input string
-name = name.strip()
+#-.strip()-- removes whitespaces on strings and --.title()-- capitalizes The First letters of Each Name String
+name = name.strip().title()
 
-# Capitalizes the first letter of the string
-name = name.capitalize()
-
-# Prints a greeting message with the formatted name
 print(f"Hello, {name}")

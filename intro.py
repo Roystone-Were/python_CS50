@@ -1,10 +1,7 @@
-name = input("What is your Name?\n") # --\n-- prints to Next line
+# --\n-- prints to Next line
+name = input("What is your Name?\n") 
 
-#removes whitespaces on strings
-name = name.strip() 
+#-.strip()-- removes whitespaces on strings and --.title()-- capitalizes The First letters of Each Name String
+name = name.strip().title()
 
-#capitalizes String
-name = name.capitalize()
-
-print(f"Hello, {name}") 
-
+print(f"Hello, {name}")
