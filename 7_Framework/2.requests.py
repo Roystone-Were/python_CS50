@@ -12,4 +12,4 @@ response = requests.get(url + sys.argv[1])
 # print(json.dumps(response.json(), indent=2))
 json_output = response.json()
 for result in json_output["results"]:
-    print(f"{result["trackName"]} recoreded and produced by {result["artistName"]}") # for every loop it displays the trackName and artistName
+    print(f"{result["trackName"]} recorded by {result["artistName"]}") # for every loop it displays the trackName and artistName
